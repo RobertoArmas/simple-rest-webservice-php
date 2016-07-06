@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c6337fb7ed7583abc2b3a5342201806f",
+    "content-hash": "250938e02bf32da3e5ffdb155c472dae",
+    "packages": [
+        {
+            "name": "robertoarmas/php-rest",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RobertoArmas/php-REST.git",
+                "reference": "c83dfa94e5c89784ebe8ff5e11a034f38735eaf3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RobertoArmas/php-REST/zipball/c83dfa94e5c89784ebe8ff5e11a034f38735eaf3",
+                "reference": "c83dfa94e5c89784ebe8ff5e11a034f38735eaf3",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RAWebService\\": "src/"
+                }
+            },
+            "description": "PHP Rest Library",
+            "support": {
+                "source": "https://github.com/RobertoArmas/php-REST/tree/master"
+            },
+            "time": "2016-07-05 23:25:40"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "robertoarmas/php-rest": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
